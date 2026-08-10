@@ -360,3 +360,20 @@
 				icon_state = icon_closed
 		else
 			icon_state = icon_opened
+
+/obj/structure/closet/secure_closet/security/colony //Basically just a stripped down version without the horny stuff and marine gear
+	name = "CorpSec. Officer's Locker"
+	req_access = list(ACCESS_CIVILIAN_SECURITY)
+
+
+/obj/structure/closet/secure_closet/security/PopulateContents()
+	new /obj/item/clothing/suit/armor/vest/security(src)
+	new /obj/item/clothing/head/helmet(src)
+	new /obj/item/storage/belt/security(src)
+	new /obj/item/flash(src)
+	new /obj/item/reagent_containers/spray/pepper(src)
+	new /obj/item/weapon/baton(src)
+	new /obj/item/weapon/gun/energy/taser(src)
+	new /obj/item/book/manual/marine_law(src)
+	new /obj/item/clothing/glasses/sunglasses/sechud(src)
+	new /obj/item/tool/taperoll/police(src)

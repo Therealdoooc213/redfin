@@ -461,6 +461,12 @@
 /obj/structure/bed/chair/comfy,
 /turf/open/floor/wood,
 /area/research_colony/service/bar)
+"cZ" = (
+/obj/machinery/light/mainship{
+	dir = 4
+	},
+/turf/open/floor/tile/dark,
+/area/research_colony/security)
 "da" = (
 /turf/open/floor/tile/blue/whiteblue{
 	dir = 1
@@ -657,6 +663,12 @@
 /obj/structure/bookcase/manuals/research_and_development,
 /turf/open/floor/wood,
 /area/research_colony/command/quarters)
+"eg" = (
+/obj/machinery/light/mainship{
+	dir = 8
+	},
+/turf/open/floor/tile/dark,
+/area/research_colony/security/interrogation)
 "em" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -850,6 +862,12 @@
 	},
 /turf/open/floor,
 /area/research_colony/engineering/lobby)
+"fz" = (
+/obj/machinery/door/airlock/mainship/security/glass/free_access{
+	name = "\improper Cell"
+	},
+/turf/open/floor,
+/area/research_colony/security/prison)
 "fB" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
@@ -902,6 +920,12 @@
 	},
 /turf/open/floor/tile/dark,
 /area/research_colony/security)
+"fZ" = (
+/obj/machinery/light/mainship{
+	dir = 1
+	},
+/turf/open/floor/tile/dark,
+/area/research_colony/security)
 "gc" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 8
@@ -912,6 +936,12 @@
 	},
 /turf/open/floor,
 /area/research_colony/engineering/engine)
+"gd" = (
+/obj/machinery/light/mainship{
+	dir = 4
+	},
+/turf/open/floor/tile/dark,
+/area/research_colony/security/armory)
 "ge" = (
 /obj/machinery/atmospherics/components/unary/vent_pump{
 	on = 1;
@@ -1036,6 +1066,12 @@
 /obj/machinery/vending/coffee,
 /turf/open/floor/tile/dark,
 /area/research_colony/security)
+"hb" = (
+/obj/structure/rack,
+/obj/item/weapon/gun/rifle/pepperball,
+/obj/item/weapon/gun/rifle/pepperball,
+/turf/open/floor/tile/dark,
+/area/research_colony/security/armory)
 "hc" = (
 /turf/open/floor/tile/purple/whitepurple{
 	dir = 1
@@ -1080,6 +1116,55 @@
 /obj/structure/cable,
 /turf/open/floor/tile/white,
 /area/research_colony/service/bathrooms)
+"hz" = (
+/obj/structure/rack,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/ammo_magazine/rifle/m41a,
+/obj/item/storage/pouch/magazine/large,
+/obj/item/storage/pouch/magazine/large,
+/obj/item/storage/pouch/magazine/large,
+/obj/item/storage/pouch/magazine/large,
+/obj/item/storage/belt/marine,
+/obj/item/storage/belt/marine,
+/obj/item/storage/belt/marine,
+/obj/item/storage/belt/marine,
+/turf/open/floor/tile/dark,
+/area/research_colony/security/armory)
+"hG" = (
+/obj/machinery/light/mainship,
+/turf/open/floor/tile/dark,
+/area/research_colony/security)
 "hJ" = (
 /turf/open/floor/tile/white,
 /area/research_colony/command/adminoff)
@@ -1531,6 +1616,9 @@
 /obj/structure/cable,
 /turf/open/floor,
 /area/research_colony/service/cryogenics)
+"kM" = (
+/turf/open/floor,
+/area/research_colony/caves)
 "kO" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -1735,6 +1823,14 @@
 	},
 /turf/open/floor/wood,
 /area/research_colony/command/quarters)
+"mj" = (
+/obj/machinery/door/airlock/multi_tile/mainship/secdoor{
+	dir = 2;
+	req_access = list(302);
+	name = "\improper CorpSec. Armoury"
+	},
+/turf/open/floor/tile/dark,
+/area/research_colony/security/armory)
 "mk" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /obj/machinery/door/airlock/mainship/security{
@@ -1856,6 +1952,10 @@
 /obj/structure/sink,
 /turf/open/floor/tile/white,
 /area/research_colony/command/quarters)
+"nd" = (
+/obj/structure/closet/secure_closet/security/colony,
+/turf/open/floor/tile/dark,
+/area/research_colony/security)
 "ne" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /obj/structure/cable,
@@ -1914,6 +2014,30 @@
 	},
 /turf/open/floor,
 /area/research_colony/service/logres)
+"nr" = (
+/obj/structure/rack,
+/obj/machinery/light/mainship{
+	dir = 1
+	},
+/obj/item/big_ammo_box/shotgun/buckshot,
+/obj/item/big_ammo_box/shotgun/buckshot,
+/obj/item/big_ammo_box/shotgun/buckshot,
+/obj/item/big_ammo_box/shotgun,
+/obj/item/big_ammo_box/shotgun,
+/obj/item/big_ammo_box/shotgun,
+/obj/item/big_ammo_box/shotgun/flechette,
+/obj/item/big_ammo_box/shotgun/flechette,
+/obj/item/big_ammo_box/shotgun/flechette,
+/obj/item/storage/belt/shotgun,
+/obj/item/storage/belt/shotgun,
+/obj/item/storage/belt/shotgun,
+/obj/item/storage/belt/shotgun,
+/obj/item/storage/pouch/shotgun,
+/obj/item/storage/pouch/shotgun,
+/obj/item/storage/pouch/shotgun,
+/obj/item/storage/pouch/shotgun,
+/turf/open/floor/tile/dark,
+/area/research_colony/security/armory)
 "nt" = (
 /obj/machinery/chem_dispenser,
 /turf/open/floor/tile/purple/whitepurple{
@@ -2074,6 +2198,10 @@
 	},
 /turf/open/floor/tile/dark,
 /area/research_colony/security)
+"oz" = (
+/obj/machinery/light/mainship,
+/turf/open/floor/wood,
+/area/research_colony/security/hos)
 "oA" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /obj/structure/table/mainship,
@@ -2518,6 +2646,12 @@
 /obj/structure/cable,
 /turf/open/floor/tile/white,
 /area/research_colony/service/bathrooms)
+"rT" = (
+/obj/structure/rack,
+/obj/item/weapon/gun/shotgun/combat,
+/obj/item/weapon/gun/shotgun/combat,
+/turf/open/floor/tile/dark,
+/area/research_colony/security/armory)
 "rY" = (
 /obj/structure/benchpress,
 /turf/open/floor,
@@ -2697,6 +2831,12 @@
 	},
 /turf/open/floor/engine,
 /area/research_colony/research/highsec)
+"to" = (
+/obj/machinery/light/mainship{
+	dir = 8
+	},
+/turf/open/floor/tile/dark,
+/area/research_colony/security/armory)
 "tr" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/on{
 	dir = 8;
@@ -3627,6 +3767,18 @@
 "zw" = (
 /turf/open/floor/tile/white,
 /area/research_colony/command/quarters)
+"zB" = (
+/obj/machinery/door/airlock/mainship/generic/bathroom/toilet{
+	name = "\improper Showers"
+	},
+/turf/open/floor/tile/white,
+/area/research_colony/security/prison)
+"zE" = (
+/obj/machinery/light/mainship{
+	dir = 8
+	},
+/turf/open/floor,
+/area/research_colony/security/prison)
 "zF" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/junction/flipped{
@@ -4487,6 +4639,13 @@
 /obj/machinery/power/terminal,
 /turf/open/floor/plating,
 /area/research_colony/engineering/engine)
+"Fm" = (
+/obj/structure/rack,
+/obj/item/weapon/gun/flamer/big_flamer/marinestandard,
+/obj/item/ammo_magazine/tank/flamer,
+/obj/item/ammo_magazine/tank/flamer,
+/turf/open/floor/tile/dark,
+/area/research_colony/security/armory)
 "Fo" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
@@ -4771,6 +4930,17 @@
 	},
 /turf/open/floor/tile/white,
 /area/research_colony/research/highsec)
+"Hv" = (
+/obj/machinery/light/mainship{
+	dir = 4
+	},
+/obj/item/storage/box/visual/grenade/teargas,
+/obj/item/storage/box/visual/grenade/teargas,
+/obj/structure/rack,
+/obj/item/weapon/gun/grenade_launcher/single_shot,
+/obj/item/weapon/gun/grenade_launcher/single_shot,
+/turf/open/floor/tile/dark,
+/area/research_colony/security/armory)
 "Hy" = (
 /turf/open/lavaland/basalt/dirt/autosmoothing,
 /area/research_colony/service/nexus)
@@ -4881,6 +5051,20 @@
 /obj/effect/landmark/xeno_resin_door,
 /turf/open/floor/plating/ground/mars/random/sand,
 /area/research_colony/caves)
+"Io" = (
+/obj/structure/rack,
+/obj/item/storage/box/crate/sentry,
+/obj/item/storage/box/crate/sentry,
+/obj/item/weapon/shield/riot/marine/deployable,
+/obj/item/weapon/shield/riot/marine/deployable,
+/obj/item/weapon/shield/riot/marine/deployable,
+/obj/item/weapon/shield/riot/marine/deployable,
+/obj/item/weapon/shield/riot/marine/deployable,
+/obj/item/weapon/shield/riot,
+/obj/item/weapon/shield/riot,
+/obj/item/weapon/shield/riot,
+/turf/open/floor/tile/dark,
+/area/research_colony/security/armory)
 "Ip" = (
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/tile/white,
@@ -4914,6 +5098,15 @@
 	},
 /turf/open/floor,
 /area/research_colony/service)
+"IF" = (
+/obj/structure/rack,
+/obj/machinery/light/mainship,
+/obj/item/storage/box/visual/magazine/compact/pepperball/full,
+/obj/item/storage/box/visual/magazine/compact/pepperball/full,
+/obj/item/storage/box/visual/magazine/compact/pepperball/full,
+/obj/item/storage/box/visual/magazine/compact/pepperball/full,
+/turf/open/floor/tile/dark,
+/area/research_colony/security/armory)
 "IL" = (
 /obj/structure/toilet{
 	dir = 4
@@ -5034,6 +5227,15 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/closed/wall/r_wall,
 /area/research_colony/logistics)
+"JL" = (
+/obj/structure/bed/chair{
+	dir = 8
+	},
+/obj/machinery/light/mainship{
+	dir = 4
+	},
+/turf/open/floor/tile/dark,
+/area/research_colony/security/interrogation)
 "JO" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk,
@@ -5364,6 +5566,12 @@
 	dir = 4
 	},
 /area/research_colony/medical)
+"MD" = (
+/obj/machinery/light/mainship{
+	dir = 8
+	},
+/turf/open/floor/tile/dark,
+/area/research_colony/security)
 "MG" = (
 /obj/machinery/reagentgrinder,
 /obj/item/stack/sheet/mineral/phoron,
@@ -5385,6 +5593,12 @@
 /obj/structure/flora/tree/pine,
 /turf/open/floor/plating/ground/snow/layer2,
 /area/research_colony/service/nexus)
+"MM" = (
+/obj/structure/rack,
+/obj/item/weapon/gun/rifle/m41a,
+/obj/item/weapon/gun/rifle/m41a,
+/turf/open/floor/tile/dark,
+/area/research_colony/security/armory)
 "MR" = (
 /obj/structure/curtain/medical,
 /turf/open/floor/tile/white,
@@ -5666,6 +5880,9 @@
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/tile/dark,
 /area/research_colony/security/interrogation)
+"OK" = (
+/turf/open/floor/tile/white,
+/area/research_colony/security/prison)
 "OL" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor,
@@ -5721,6 +5938,10 @@
 	},
 /turf/open/floor/tile/white,
 /area/research_colony/service/bathrooms)
+"OX" = (
+/obj/machinery/vending/security,
+/turf/open/floor/tile/dark,
+/area/research_colony/security)
 "OY" = (
 /obj/structure/closet/secure_closet/personal,
 /obj/machinery/shower{
@@ -6609,6 +6830,43 @@
 	},
 /turf/open/floor/tile/white,
 /area/research_colony/service/bathrooms/three)
+"Vl" = (
+/obj/structure/rack,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/ammo_magazine/smg/m25/extended,
+/obj/item/storage/pouch/magazine/large,
+/obj/item/storage/pouch/magazine/large,
+/obj/item/storage/pouch/magazine/large,
+/obj/item/storage/pouch/magazine/large,
+/obj/item/storage/belt/marine,
+/obj/item/storage/belt/marine,
+/obj/item/storage/belt/marine,
+/obj/item/storage/belt/marine,
+/turf/open/floor/tile/dark,
+/area/research_colony/security/armory)
 "Vm" = (
 /obj/machinery/pipedispenser/disposal,
 /turf/open/floor/tile/yellow{
@@ -6844,6 +7102,12 @@
 /obj/structure/largecrate/supply/ammo/pistol,
 /turf/open/floor,
 /area/research_colony/logistics)
+"WC" = (
+/obj/machinery/door/airlock/mainship/generic/bathroom/toilet{
+	dir = 2
+	},
+/turf/open/floor,
+/area/research_colony/caves)
 "WD" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold/green/hidden{
@@ -7299,6 +7563,12 @@
 /obj/structure/flora/tree/dead/drought,
 /turf/open/floor/plating/ground/mars/random/dirt,
 /area/research_colony/service/nexus)
+"ZF" = (
+/obj/structure/rack,
+/obj/item/weapon/gun/smg/m25,
+/obj/item/weapon/gun/smg/m25,
+/turf/open/floor/tile/dark,
+/area/research_colony/security/armory)
 "ZG" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 8
@@ -10870,7 +11140,7 @@ lI
 Ki
 HL
 eM
-yj
+eI
 yj
 yj
 yj
@@ -12752,7 +13022,7 @@ PD
 PD
 PD
 PD
-JX
+yj
 cW
 hc
 Eu
@@ -12854,7 +13124,7 @@ xF
 aI
 ep
 PD
-JX
+yj
 cW
 hc
 Eu
@@ -12956,7 +13226,7 @@ sP
 PD
 PD
 PD
-JX
+yj
 cW
 FI
 Eu
@@ -13058,7 +13328,7 @@ HM
 aI
 ep
 PD
-JX
+yj
 cW
 hc
 Eu
@@ -13160,7 +13430,7 @@ FR
 PD
 PD
 PD
-JX
+yj
 cW
 rk
 TT
@@ -13260,9 +13530,9 @@ PD
 PD
 PD
 PD
-JX
-JX
-JX
+yj
+yj
+yj
 cW
 Fz
 Eu
@@ -13357,14 +13627,14 @@ Nz
 Nz
 GQ
 Nz
-JX
-JX
-JX
-JX
-JX
-JX
-JX
-JX
+yj
+yj
+yj
+yj
+yj
+yj
+yj
+yj
 cW
 wY
 Eu
@@ -13459,14 +13729,14 @@ Ol
 XF
 Os
 Nz
-JX
-JX
-JX
-JX
-JX
-JX
-JX
-JX
+yj
+yj
+yj
+yj
+yj
+yj
+yj
+yj
 cW
 hc
 Eu
@@ -13567,8 +13837,8 @@ HP
 HP
 HP
 HP
-JX
-JX
+yj
+yj
 cW
 FI
 Eu
@@ -13669,8 +13939,8 @@ GF
 hQ
 vx
 HP
-JX
-JX
+yj
+yj
 cW
 hc
 Eu
@@ -13771,8 +14041,8 @@ AO
 WP
 mI
 HP
-JX
-JX
+yj
+yj
 cW
 hc
 Eu
@@ -13817,11 +14087,11 @@ uv
 uv
 uv
 uv
-Aa
+MD
 Aa
 Fi
 Aa
-Aa
+MD
 aX
 aX
 CI
@@ -13873,8 +14143,8 @@ Pj
 SU
 iR
 HP
-JX
-JX
+yj
+yj
 cW
 Fz
 Eu
@@ -13916,7 +14186,7 @@ YC
 YC
 uv
 mq
-Av
+eg
 JR
 Uf
 yp
@@ -14032,7 +14302,7 @@ bv
 KY
 aK
 zv
-oD
+oz
 CI
 OI
 OI
@@ -14231,7 +14501,7 @@ Cy
 Aa
 Aa
 Aa
-Aa
+cZ
 CI
 NB
 oD
@@ -14327,7 +14597,7 @@ Av
 Av
 Av
 uv
-Aa
+fZ
 Aa
 WD
 uK
@@ -14426,7 +14696,7 @@ hJ
 uv
 QB
 QB
-QB
+JL
 Av
 mk
 uK
@@ -14434,11 +14704,11 @@ uK
 Bj
 Aa
 Aa
-Aa
+hG
 fN
 Kh
-Aa
-Aa
+MD
+nd
 fN
 OI
 OI
@@ -14540,7 +14810,7 @@ Aa
 fN
 Aa
 Aa
-Aa
+nd
 fN
 OI
 OI
@@ -14620,17 +14890,17 @@ OI
 OI
 OI
 AY
-VR
-VR
-VR
-VR
+OK
+OK
+OK
+AY
 VR
 VR
 VR
 VR
 AY
 VR
-VR
+zE
 vk
 AY
 Aa
@@ -14642,7 +14912,7 @@ uK
 Yp
 uK
 dp
-Aa
+nd
 fN
 OI
 OI
@@ -14722,10 +14992,10 @@ OI
 OI
 OI
 AY
-VR
-VR
-VR
-VR
+OK
+OK
+OK
+AY
 VR
 VR
 VR
@@ -14742,9 +15012,9 @@ Aa
 Aa
 Aa
 fN
+OX
 Aa
-Aa
-Aa
+nd
 fN
 OI
 fs
@@ -14824,10 +15094,10 @@ OI
 OI
 OI
 AY
-VR
-VR
-VR
-VR
+OK
+OK
+OK
+AY
 VR
 VR
 VR
@@ -14844,9 +15114,9 @@ Aa
 Aa
 Aa
 fN
-Aa
-Aa
-Aa
+OX
+cZ
+nd
 fN
 OI
 fs
@@ -14922,14 +15192,14 @@ OI
 OI
 OI
 OI
-OI
-OI
-OI
+Gt
+Gt
+Gt
 AY
-VR
-VR
-VR
-VR
+AY
+zB
+AY
+AY
 VR
 VR
 VR
@@ -14942,7 +15212,7 @@ AY
 jo
 jo
 VP
-GO
+mj
 jo
 jo
 jo
@@ -15024,10 +15294,9 @@ OI
 OI
 OI
 OI
-OI
-OI
-OI
-AY
+Gt
+kM
+WC
 VR
 VR
 VR
@@ -15043,12 +15312,13 @@ VR
 AY
 GO
 GO
+to
 VP
 GO
+to
 GO
 GO
 jo
-OI
 OI
 OI
 OI
@@ -15125,34 +15395,34 @@ OI
 OI
 fs
 fs
-fs
 OI
-OI
-OI
+Gt
+Gt
+Gt
+VR
+VR
+VR
+VR
+VR
+VR
+VR
+VR
+VR
+VR
+VR
+VR
 AY
-VR
-VR
-VR
-VR
-VR
-VR
-VR
-VR
-VR
-VR
-VR
-VR
-AY
 Rr
 Rr
 Rr
+Rr
+GO
 GO
 GO
 GO
 jo
 OI
 OI
-fs
 fs
 fs
 fs
@@ -15227,11 +15497,10 @@ OI
 fs
 fs
 fs
-fs
-fs
-fs
-fs
-AY
+OI
+OI
+OI
+Gt
 VR
 VR
 VR
@@ -15245,15 +15514,16 @@ VR
 VR
 VR
 AY
+rT
+GO
+ZF
 GO
 GO
+MM
 GO
-GO
-GO
-GO
+hb
 jo
 OI
-fs
 fs
 fs
 fs
@@ -15332,8 +15602,7 @@ fs
 cD
 fs
 fs
-fs
-AY
+Gt
 VR
 VR
 VR
@@ -15347,17 +15616,18 @@ VR
 VR
 VR
 AY
+nr
+GO
+Vl
 GO
 GO
+hz
 GO
-GO
-GO
-GO
+IF
 jo
 OI
 fs
 cD
-fs
 fs
 OI
 OI
@@ -15433,32 +15703,32 @@ fs
 fs
 fs
 fs
-OI
-OI
-AY
-AY
-iX
-VR
+fs
+Gt
 AY
 iX
-VR
+fz
 AY
 iX
-VR
+fz
 AY
 iX
-VR
+fz
 AY
+iX
+fz
+AY
+rT
+GO
+ZF
 GO
 GO
+MM
 GO
-GO
-GO
-GO
+hb
 jo
 OI
 OI
-fs
 fs
 OI
 OI
@@ -15534,10 +15804,9 @@ fs
 fs
 fs
 fs
+fs
 OI
 OI
-OI
-OI
 AY
 VR
 VR
@@ -15551,6 +15820,8 @@ AY
 VR
 VR
 AY
+GO
+GO
 GO
 GO
 GO
@@ -15561,7 +15832,6 @@ jo
 OI
 fs
 fs
-OI
 OI
 OI
 OI
@@ -15639,7 +15909,6 @@ fs
 OI
 OI
 OI
-OI
 AY
 VR
 VR
@@ -15653,17 +15922,18 @@ AY
 VR
 VR
 AY
+jo
 GO
+Hv
+Fm
+Io
+gd
 GO
-GO
-GO
-GO
-GO
+jo
 jo
 OI
 cD
 fs
-OI
 OI
 OI
 OI
@@ -15741,7 +16011,6 @@ fs
 OI
 OI
 OI
-OI
 AY
 AY
 AY
@@ -15755,6 +16024,7 @@ AY
 AY
 AY
 AY
+jo
 jo
 jo
 jo
@@ -15764,7 +16034,7 @@ jo
 jo
 OI
 fs
-OI
+fs
 OI
 OI
 OI
