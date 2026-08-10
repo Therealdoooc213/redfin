@@ -387,6 +387,15 @@
 /obj/machinery/camera/autoname/mainship/dropship_two
 	network = list("marinemainship", "dropship2")
 
+/obj/machinery/camera/autoname/colony
+	network = list(CIVILIAN_CAMERA_NETWORK)
+
+/obj/machinery/camera/autoname/colony/research
+	network = list(CIV_RESEARCH_NETWORK)
+
+/obj/machinery/camera/autoname/colony/research/cells
+	network = list(CIV_RESEARCH_CELLS_NETWORK)
+
 /obj/machinery/camera/headset
 	name = "headset camera"
 	network = list("marine")

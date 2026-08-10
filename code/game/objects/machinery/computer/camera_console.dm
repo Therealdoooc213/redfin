@@ -244,3 +244,13 @@
 /obj/machinery/computer/security/dropship/three
 	name = "\improper 'Triump' camera controls"
 	network = list("dropship3")
+
+/obj/machinery/computer/security/colony
+	name = "colony security camera console"
+	desc = "Used to access the various cameras on the colony."
+	network = list(CIVILIAN_CAMERA_NETWORK)
+
+
+/obj/machinery/computer/security/colony/research
+	name = "research security camera console"
+	network = list(CIV_RESEARCH_NETWORK, CIV_RESEARCH_CELLS_NETWORK)

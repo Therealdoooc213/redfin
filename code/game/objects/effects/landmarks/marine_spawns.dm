@@ -156,6 +156,11 @@
 	icon_state = "xeno_spawn"
 	job = /datum/job/xenomorph/green
 
+/obj/effect/landmark/start/job/xenomorph/forsaken
+	icon_state = "xeno_spawn"
+	job = /datum/job/xenomorph/forsaken
+
+
 //SOM
 /obj/effect/landmark/start/job/som/squadstandard
 	icon_state = "som_standard"

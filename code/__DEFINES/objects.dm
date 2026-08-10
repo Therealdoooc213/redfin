@@ -270,6 +270,11 @@ GLOBAL_LIST_INIT(restricted_camera_networks, list( //Those networks can only be 
 //cameras
 #define SOM_CAMERA_NETWORK "som_camera_network"
 
+//colony cameras
+#define CIVILIAN_CAMERA_NETWORK "civilian_camera_network"
+#define CIV_RESEARCH_NETWORK "civ_research_network"
+#define CIV_RESEARCH_CELLS_NETWORK "civ_research_cells_network"
+
 ///Burn level applied by lava if it calls fire_act
 #define LAVA_BURN_LEVEL 60
 
