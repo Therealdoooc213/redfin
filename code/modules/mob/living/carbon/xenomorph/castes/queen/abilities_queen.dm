@@ -46,7 +46,7 @@
 			color_override = "purple"
 		))
 		switch(xeno_owner.caste_base_type) // TODO MAKE DYING SOUND A CASTE VAR????
-			if(/datum/xeno_caste/queen, /datum/xeno_caste/shrike)
+			if(/datum/xeno_caste/queen, /datum/xeno_caste/shrike, /datum/xeno_caste/queen/mother)
 				SEND_SOUND(xeno, queen_sound)
 			if(/datum/xeno_caste/king, /datum/xeno_caste/dragon)
 				SEND_SOUND(xeno, king_sound)

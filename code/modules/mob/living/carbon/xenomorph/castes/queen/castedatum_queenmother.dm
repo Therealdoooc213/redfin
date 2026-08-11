@@ -20,11 +20,11 @@
 	speed = -0.2
 
 	// *** Plasma *** //
-	plasma_max = 1200
-	plasma_gain = 90
+	plasma_max = 3000 //big girl
+	plasma_gain = 110
 
 	// *** Health *** //
-	max_health = 520
+	max_health = 720
 
 	// *** Sunder *** //
 	sunder_multiplier = 1

@@ -2,7 +2,7 @@
 	caste_base_type = /datum/xeno_caste/queen/mother
 	name = "Queen"
 	desc = "A huge, looming alien creature. The biggest and the baddest."
-	icon = 'ntf_modular/icons/Xeno/castes/queen.dmi'
+	icon = 'ntf_modular/icons/Xeno/castes/queen_mother.dmi'
 	icon_state = "Queen Walking"
 	health = 500
 	maxHealth = 500
@@ -42,21 +42,7 @@
 // *********** Name
 // ***************************************
 /mob/living/carbon/xenomorph/queen/mother/generate_name()
-	var/playtime_mins = client?.get_exp(xeno_caste.caste_name)
-	var/prefix = "[hive.prefix][xeno_caste.upgrade_name ? "[xeno_caste.upgrade_name] " : ""]"
-	if(!client?.prefs.show_xeno_rank || !client)
-		name = "[prefix]Queen[src == hive.living_xeno_ruler ? " Regnant" :""] ([nicknumber])"
-		real_name = name
-		if(mind)
-			mind.name = name
-		return
-			name = prefix + "Queen Mother"
-
-	name = "[name][src == hive.living_xeno_ruler ? " Regnant" :""] ([nicknumber])"
-
-	real_name = name
-	if(mind)
-		mind.name = name
+			name = "Queen Mother"
 
 
 // ***************************************
@@ -67,12 +53,3 @@
 
 /mob/living/carbon/xenomorph/queen/mother/xeno_death_alert()
 	return
-
-
-// ***************************************
-// *********** Larva Mother
-// ***************************************
-
-/mob/living/carbon/xenomorph/queen/mother/proc/is_burrowed_larva_host(datum/source, list/mothers, list/silos)
-	if(!incapacitated(TRUE))
-		mothers += src //Adding us to the list.
