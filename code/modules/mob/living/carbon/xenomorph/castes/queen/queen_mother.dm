@@ -16,6 +16,7 @@
 	inherent_verbs = list(
 		/mob/living/carbon/xenomorph/proc/hijack,
 	)
+	footstep_type = FOOTSTEP_XENO_HEAVY
 
 // ***************************************
 // *********** Init
