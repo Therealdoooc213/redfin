@@ -3234,10 +3234,8 @@
 /turf/open/floor/tile/dark,
 /area/research_colony/medical/morgue)
 "vM" = (
-/obj/machinery/atmospherics/pipe/simple/green/hidden,
-/obj/structure/disposalpipe/segment,
-/obj/structure/cable,
-/turf/closed/mineral/smooth/bigred,
+/obj/machinery/floodlight/landing/hq,
+/turf/open/floor/plating/ground/mars/random/dirt,
 /area/research_colony/service/nexus)
 "vN" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -3661,7 +3659,7 @@
 /turf/open/floor,
 /area/research_colony/service/mess)
 "yB" = (
-/turf/closed/mineral/smooth/bigred,
+/turf/open/lavaland/basalt/dirt/corner,
 /area/research_colony/service/nexus)
 "yE" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -5599,7 +5597,7 @@
 /area/research_colony/research/chem)
 "ML" = (
 /obj/structure/flora/tree/pine,
-/turf/closed/mineral/smooth/bigred,
+/turf/open/floor/plating/ground/snow,
 /area/research_colony/service/nexus)
 "MM" = (
 /obj/structure/rack,
@@ -5719,7 +5717,7 @@
 /area/research_colony/medical)
 "Ny" = (
 /obj/machinery/floodlight/landing/hq,
-/turf/closed/mineral/smooth/bigred,
+/turf/open/floor/plating/ground/snow/layer2,
 /area/research_colony/service/nexus)
 "Nz" = (
 /turf/closed/wall/r_wall,
@@ -12085,9 +12083,9 @@ UA
 kh
 ob
 OU
-yB
-yB
-yB
+ob
+Qb
+KQ
 KQ
 KQ
 Qb
@@ -12187,8 +12185,8 @@ UA
 UA
 ob
 OU
-yB
-yB
+ob
+Qb
 ML
 KQ
 KQ
@@ -12289,9 +12287,9 @@ UA
 UA
 ob
 OU
-yB
-yB
-yB
+ob
+Qb
+KQ
 KQ
 RA
 KQ
@@ -12391,9 +12389,9 @@ UA
 UA
 ob
 OU
-yB
-yB
-yB
+ob
+Qb
+KQ
 KQ
 Qb
 Qb
@@ -12493,9 +12491,9 @@ UA
 JC
 ob
 OU
-yB
+ob
 Ny
-yB
+Qb
 Qb
 Qb
 Qb
@@ -12595,9 +12593,9 @@ ob
 ob
 ob
 OU
-yB
-yB
-yB
+ob
+ob
+ob
 ob
 ob
 ob
@@ -12697,9 +12695,9 @@ ky
 UX
 qD
 gm
-vM
-vM
-vM
+ky
+ky
+ky
 ky
 ky
 ky
@@ -12799,9 +12797,9 @@ ob
 Yc
 Pt
 qj
-yB
-yB
-yB
+ob
+ob
+ob
 ob
 ob
 ob
@@ -12901,9 +12899,9 @@ UA
 Er
 rC
 fv
-yB
-Ny
-yB
+ob
+vM
+UE
 UE
 UE
 Bu
@@ -13003,9 +13001,9 @@ UA
 UA
 ob
 OU
+ob
 yB
-yB
-yB
+Hy
 uY
 UE
 UE
@@ -13106,7 +13104,7 @@ UA
 ob
 OU
 ob
-iB
+Hy
 iB
 Hy
 UE
@@ -13208,7 +13206,7 @@ UA
 ob
 OU
 ob
-iB
+Hy
 iB
 Hy
 UE
